@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload Form</title>
+</head>
+<body>
+    <h2>Upload Form</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
